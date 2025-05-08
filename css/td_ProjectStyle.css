@@ -1,0 +1,233 @@
+/*Anything commented in the code is either "temporarily" removed for experimantal 
+reasons or is being used to label clustered parts of the code*/
+
+.body {
+	/*background-color: rgb(51, 51, 51);*/
+	align-items: center;
+	background-color: rgb(33, 33, 33);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: flex;
+	flex-direction: column;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	justify-content: center;
+	line-height: 1.6em;
+	margin-left: 0em;
+	margin-right: 0em;
+	min-height: 1.875em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.body-grid {
+	background-color: rgb(33, 33, 33);
+	display: grid;
+	font-size: 16px;
+	grid-template-columns: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 1.875em;
+	padding: 2em;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+	width: 100%;
+	
+}
+
+.header-text {
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 600;
+	hyphens: manual;
+	line-height: 1.1em;
+	margin-block-end: 0.2em;
+	margin-block-start: 0.4em;
+	margin-bottom: 0.2em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.4em;
+	overflow-wrap: normal;
+	text-align: center;
+	text-shadow: rgba(140, 140, 140, 0.6) 1px 1px 0px, rgba(0, 0, 0, 0.67) -1px -1px 1px;
+	text-size-adjust: 100%;
+	text-transform: uppercase;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.about-header {
+	box-sizing: border-box;
+	color: rgb(117, 214, 28);
+	display: block;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 600;
+	hyphens: manual;
+	line-height: 1.1em;
+	margin-block-end: 0.25em;
+	margin-block-start: 0.5em;
+	margin-bottom: 0.5em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-top: 0.25em;
+	overflow-wrap: normal;
+	padding-bottom: 1em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: uppercase;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.about-wrapper-center {
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-top: 0em;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.about-wrapper {
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6em;
+	margin-block-end: 0.625em;
+	margin-block-start: 0em;
+	margin-bottom: 0.625em;
+	margin-inline-end: 0em;
+	margin-inline-start: 0em;
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-top: 0em;
+	text-align: left;
+	text-size-adjust: 100%;
+	text-transform: none;
+	unicode-bidi: isolate;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.grid {
+	background-color: rgb(33, 33, 33);
+	display: grid;
+	font-size: 16px;
+	grid-template-columns: 50% 50%;
+	height: auto;
+	width: 100%;
+}
+
+.project-pic-div {
+	align-items: center;
+    display: flex;
+	font-size: 16px;
+    justify-content: center;
+	padding: 2em;
+	padding-bottom: auto;
+    padding-top: auto;
+}
+
+.project-pic-corrupt {
+	border-bottom: 5px solid rgb(34, 136, 32);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(255, 16, 254);
+	border-top: 5px solid rgb(255, 16, 254);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 1.6em;
+	max-width: 100%;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	vertical-align: middle;
+	width: 15em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.project-pic-refined {
+	border-bottom: 5px solid rgb(34, 136, 32);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(255, 16, 254);
+	border-top: 5px solid rgb(255, 16, 254);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 1.6em;
+	max-width: 100%;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	vertical-align: middle;
+	width: 20em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.project-pic-prototype {
+	border-bottom: 5px solid rgb(34, 136, 32);
+	border-right: 5px solid rgb(34, 136, 32);
+	border-left: 5px solid rgb(255, 16, 254);
+	border-top: 5px solid rgb(255, 16, 254);
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: inline;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	line-height: 1.6em;
+	max-width: 100%;
+	overflow-clip-margin: content-box;
+	overflow-x: clip;
+	overflow-y: clip;
+	text-align: center;
+	text-size-adjust: 100%;
+	text-transform: none;
+	vertical-align: middle;
+	width: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
